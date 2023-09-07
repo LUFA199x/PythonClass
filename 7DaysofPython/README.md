@@ -1,4 +1,5 @@
 ## Python Loops, functions, modules and libraries
+*** ### Loops ***
 #### Loops (for/while): Loops are used to repeatedly run a block of code.
 ### for loop
 Using the `for loop`, a piece of code is executed once for each element of a sequence (such as a list, string, or tuple).
