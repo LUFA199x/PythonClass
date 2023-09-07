@@ -1,5 +1,4 @@
 ## Python Loops, functions, modules and libraries
-*** ### Loops
 #### Loops (for/while): Loops are used to repeatedly run a block of code.
 ### for loop
 Using the `for loop`, a piece of code is executed once for each element of a sequence (such as a list, string, or tuple).
@@ -32,3 +31,38 @@ The `while` loop is used to execute a block of code repeatedly as long as a cond
 `4`
 `5`
 
+#### Functions
+Functions are reusable chunks of code with argument/parameters and return values. Using the `def` keyword in Python, you can define a function. In your programme, functions can be used to encapsulate complex logic and can be called several times. Functions can also be used to simplify code and make it easier to read. Here is an illustration of a function that adds two numbers:
+
+`` `# function has two arguments num1 and num2``
+``def add_numbers(num1, num2):``
+  ``  sum = num1 + num2``
+    ``print('The sum is: ',sum)``
+``# calling the function with arguments to add 5 and 2``
+``add_numbers(5, 2) ``
+
+##### Output:
+`The sum is: 9`
+
+#### Understanding Modules and Importing Libraries:
+A module is a file in Python that contains definitions and statements. Modules let you arrange your code and reuse it across many apps. The Standard Library, a sizable collection of Python modules, offers a wide range of capabilities, such as file I/O, regular expressions, and more. Additional libraries can be installed using package managers like pip. You must import a module or library using the import statement in order to use it in your programme. Here is an illustration of how to load the math module and calculate a number's square root using the sqrt() function:
+
+`import math`
+`print(math.sqrt(16)) # 4.0`
+
+#### File I/O
+File I/O is used to read and write data to and from files on disk. The built-in Python function open() can be used to open a file, after which you can read from and write to it using methods like read() and write(). To save system resources, you should always close the file after you are done with it. An example of reading from a file and printing its content:
+
+```f = open("90DaysOfDevOps.txt", "r")`
+`print(f.read())`
+``f.close()`
+
+
+#### Exception Handing
+Exceptions are runtime errors that happen when your programme runs into unexpected circumstances, such dividing by zero or attempting to access a list element that doesn't exist. Using a try/except block, you can manage exceptions in Python. The try block's code is run, and if an exception arises, the except block's code is run to handle the exception.
+> try:
+  f = open("90DaysOfDevOps.txt")
+  try:
+    f.write("Python is great")
+  except:
+    print("Something went wrong when writing to the file")
