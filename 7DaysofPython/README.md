@@ -61,8 +61,8 @@ File I/O is used to read and write data to and from files on disk. The built-in 
 #### Exception Handing
 Exceptions are runtime errors that happen when your programme runs into unexpected circumstances, such dividing by zero or attempting to access a list element that doesn't exist. Using a try/except block, you can manage exceptions in Python. The try block's code is run, and if an exception arises, the except block's code is run to handle the exception.
 > try:
-  f = open("90DaysOfDevOps.txt")
-  try:
-    f.write("Python is great")
-  except:
-    print("Something went wrong when writing to the file")
+>  f = open("90DaysOfDevOps.txt")
+>  try:
+>    f.write("Python is great")
+>  except:
+>    print("Something went wrong when writing to the file")
