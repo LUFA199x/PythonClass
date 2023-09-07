@@ -25,9 +25,9 @@ The `while` loop is used to execute a block of code repeatedly as long as a cond
 `i = i + 1`
 
 ##### Output:
-`1`.
-`2`.
-`3`.
-`4`.
+`1`
+`2`
+`3`
+`4`
 `5`
 
