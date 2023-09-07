@@ -8,3 +8,8 @@ Here is an example of a for loop that prints each programming language in a list
 # for loop
 for language in languages:
 `    print(language)`
+
+# Output
+`Python`
+`Go`
+`JavaScript`
