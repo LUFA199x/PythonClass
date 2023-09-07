@@ -3,8 +3,8 @@
 ##### for loop
 Using the for loop, a piece of code is executed once for each element of a sequence (such as a list, string, or tuple).
 Here is an example of a for loop that prints each programming language in a list:
-languages = ['Python', 'Go', 'JavaScript']
+`languages = ['Python', 'Go', 'JavaScript']
 
 # for loop
 for language in languages:
-    print(language)
+    print(language)`
