@@ -53,16 +53,16 @@ A module is a file in Python that contains definitions and statements. Modules l
 #### File I/O
 File I/O is used to read and write data to and from files on disk. The built-in Python function open() can be used to open a file, after which you can read from and write to it using methods like read() and write(). To save system resources, you should always close the file after you are done with it. An example of reading from a file and printing its content:
 
-```f = open("90DaysOfDevOps.txt", "r")`
+`f = open("90DaysOfDevOps.txt", "r")`
 `print(f.read())`
-``f.close()`
+`f.close()`
 
 
 #### Exception Handing
 Exceptions are runtime errors that happen when your programme runs into unexpected circumstances, such dividing by zero or attempting to access a list element that doesn't exist. Using a try/except block, you can manage exceptions in Python. The try block's code is run, and if an exception arises, the except block's code is run to handle the exception.
-> try:
->  f = open("90DaysOfDevOps.txt")
->  try:
->    f.write("Python is great")
->  except:
->    print("Something went wrong when writing to the file")
+` try:`
+`  f = open("90DaysOfDevOps.txt")`
+`  try:`
+`    f.write("Python is great")`
+`  except:`
+`    print("Something went wrong when writing to the file")`
