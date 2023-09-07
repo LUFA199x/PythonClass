@@ -42,7 +42,7 @@ Functions are reusable chunks of code with argument/parameters and return values
 ``add_numbers(5, 2) ``
 
 ##### Output:
-`The sum is: 9`
+`The sum is: 7`
 
 #### Understanding Modules and Importing Libraries:
 A module is a file in Python that contains definitions and statements. Modules let you arrange your code and reuse it across many apps. The Standard Library, a sizable collection of Python modules, offers a wide range of capabilities, such as file I/O, regular expressions, and more. Additional libraries can be installed using package managers like pip. You must import a module or library using the import statement in order to use it in your programme. Here is an illustration of how to load the math module and calculate a number's square root using the sqrt() function:
