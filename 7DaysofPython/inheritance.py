@@ -7,7 +7,7 @@ person = Person("Rishab", "Canada")
 # print(person.name)   # OUTPUT "Rishab"
 # print(person.country)    # OUTPUT "Canada"
 =======
->>>>>>> 03ddf4637d0fde033e89602b08b27dd36b8b8b2a
+# >>>>>>> 03ddf4637d0fde033e89602b08b27dd36b8b8b2a
 
 class Student(Person):
     def __init__(self, name, country, major):
