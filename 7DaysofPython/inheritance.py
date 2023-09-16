@@ -1,3 +1,9 @@
+class Person:
+    def __init__(self, name, country):
+        self.name = name
+        self.country = country
+person = Person("Rishab", "Canada")
+
 class Student(Person):
     def __init__(self, name, country, major):
         super().__init__(name, country)
